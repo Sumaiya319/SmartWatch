@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "poppins", sans-serif;
+   
+}
+
+
+body{
+
+    
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background: linear-gradient(135deg, #563f3f, #2a2a52); 
+}
+
+
+.loader {
+    color: rgb(254, 252, 252);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    box-sizing: content-box;
+    height: 40px;
+    padding: 10px 10px
+    ;
+    display: flex;
+    border-radius: 8px;
+}
+
+.words {
+    overflow: hidden;
+    position: relative;
+}
+
+.word {
+    display: block;
+    height: 100%;
+    padding-left: 6px;
+    color: #00d4fa;
+    animation: animate 4.5s infinite;
+}
+
+@keyframes animate {
+    10% {
+        transform: translateY(-102%);
+    }
+
+    25% {
+        transform: translateY(-100%);
+    }
+
+    35% {
+        transform: translateY(-202%);
+    }
+
+    50% {
+        transform: translateY(-200%);
+    }
+
+    60% {
+        transform: translateY(-302%);
+    }
+
+    75% {
+        transform: translateY(-300%);
+    }
+
+    85% {
+        transform: translateY(-402%);
+    }
+
+    100% {
+        transform: translateY(-400%);
+    }
+}
+
+.Watch{
+    width: 320px;
+    border-radius: 10px;
+    background: #000;
+    box-shadow: 0 0 0 40px rgba(165, 108, 75, 0.8),
+    inset 0 0 15px rgba(0,225,170,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 12px solid #c2c4c3;
+    position: relative;
+    /* overflow: hidden; */
+    flex-direction: column;
+    padding: 20px;
+}
+.time{
+    color: #c56bc8;  
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+.date{
+    color: #c56bc8;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+
