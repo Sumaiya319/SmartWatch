@@ -110,29 +110,3 @@ background: linear-gradient(135deg, #563f3f, #2a2a52);
 
 
 
-@media (max-width: 768px) {
-    .loader h4 {
-      font-size: 6vw; /* Bigger font for small screens */
-    }
-  
-    .words {
-      font-size: 3vw;
-      max-width: 90%;
-    }
-  
-    
-  }
-  
-  @media (max-width: 480px) {
-    .loader h4 {
-      font-size: 7vw;
-    }
-  
-    .words {
-      font-size: 4vw;
-    }
-  
-    
-  }
-
-
